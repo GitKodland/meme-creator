@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #272727;
+    color: #fff;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+img {
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    border-bottom: 1px solid #fff;  
+}
+
+.main-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.form-block {
+    padding: 30px 30px;
+    border-right: 1px solid #fff;
+    width: 25%;
+}
+
+.meme-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    position: relative;
+}
+
+.meme {
+    width: fit-content;
+    max-height: calc(100vh - 200px);
+    max-width: 40%;
+    
+}
+
+.form-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-list_item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select {
+    font: inherit;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.input_text {
+    font: inherit;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    font: inherit;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #272727;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #fff;
+    color: #272727;
+}
+
+.text_top {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    font-weight: bold;
+    font-size: 24px;
+    z-index: 10;
+}
+
+.text_bottom {
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    font-weight: bold;
+    font-size: 24px;
+    z-index: 10;
+}
+
